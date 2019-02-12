@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/gpmgo/gopm/modules/log"
-	"mavisliu.com/IT-chinese/errhandling/filelistingserver/filelisting"
+	"mavis.com/IT-chinese/errhandling/filelistingserver/filelisting"
 )
 
 type appHandler func(writer http.ResponseWriter, request *http.Request) error
